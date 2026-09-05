@@ -7,10 +7,10 @@ metadata:
     - resources-finalizer.argocd.argoproj.io
 
 spec:
-  description: Argo CD project for cloud-prakhar/k8s-argo
+  description: github.com/winsen1983-jpg/ArgoCDGitrepo
 
   sourceRepos:
-    - https://github.com/cloud-prakhar/k8s-argo.git
+    - https://github.com/winsen1983-jpg/ArgoCDGitrepo
 
   destinations:
     - namespace: k8s-argo-demo
